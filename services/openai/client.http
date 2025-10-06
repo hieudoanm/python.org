@@ -1,0 +1,11 @@
+### Chat with gpt-oss-20b
+POST http://localhost:8000/chat
+Content-Type: application/json
+
+{
+  "prompt": "Write a short poem about the ocean.",
+  "model": "openai/gpt-oss-20b"
+}
+
+### Check server health
+GET http://localhost:8000/
